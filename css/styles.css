@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "ClimateCrisis";
+    src: url("Climate_Crisis/ClimateCrisis-Regular-VariableFont_YEAR.ttf");
+}
+
+@font-face {
+    font-family: "Epilogue";
+    src: url("Epilogue/Epilogue-VariableFont_wght.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: Epilogue, Arial, serif;
+}
+
+h1 {
+    font-size: 8em;
+    font-weight: bolder;
+    font-family: "ClimateCrisis", Arial, serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "ClimateCrisis", Arial, serif;
+    font-size: 3em;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#b594a9, #686597, #9ed64f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* HEADER */
+
+.header {
+    background-image: url('/HtmlCSSLivecodinGgroup/media/rickmortybanner.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;color: transparent;
+    background-position: bottom;
+    min-height: 20em;
+    margin-bottom: 5em;
+}
+
+.header__nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3em;
+    font-family: "ClimateCrisis", Arial, serif;
+    font-weight: bold;
+}
+
+.header__nav__list__item__link {
+    transition: padding-left 1s;
+}
+.header__nav__list__item__link:hover {
+    padding-left: 2em
+}
+
+/* MAIN */
+
+.section {
+
+}
+
+.main__container__section__text {
+    padding: 2em 5em;
+   border: #9ed64f solid 2px;
+    border-radius: 3px;
+}
+
+.main__container__section__image {
+    padding-top: 1em;
+}
+
+/* ELEMENTS */
+
+.diagonal-box {
+    /* https://9elements.com/blog/pure-css-diagonal-layouts/ */
+    background-image: url('/HtmlCSSLivecodinGgroup/media/rickmortybanner.jpg');
+    background-size: cover;
+    transform: skewY(-4deg);
+    margin-top: 2em;
+
+}
+
+.wrapper {
+    padding: 0 1em;
+}
+
+.content {
+    height: 10px;
+}
+
+
