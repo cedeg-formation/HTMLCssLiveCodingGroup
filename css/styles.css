@@ -29,6 +29,49 @@ h2 {
 
 }
 
+p {
+    background: -webkit-linear-gradient(#b594a9, #686597, #9ed64f);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;color: transparent;
+    font-weight: bolder;
+}
+
+/* ELEMENTS */
+
+.diagonal-box {
+    /* https://9elements.com/blog/pure-css-diagonal-layouts/ */
+    background-image: url('/HtmlCSSLivecodinGgroup/media/rickmortybanner.jpg');
+    background-size: cover;
+    transform: skewY(-4deg);
+    margin-top: 2em;
+
+}
+
+.wrapper {
+    padding: 0 1em;
+}
+
+.content {
+    height: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3em;
+    font-family: "ClimateCrisis", Arial, serif;
+    font-weight: bold;
+}
+
+.list__item__link {
+    transition: padding-left 1s;
+}
+.list__item__link:hover {
+    padding-left: 2em
+}
+
 /* HEADER */
 
 .header {
@@ -82,6 +125,14 @@ h2 {
     transform: skewY(-4deg);
     margin-top: 2em;
 
+.footer__nav {
+
+}
+.footer__nav__list {
+    width: 100%;
+    font-size: 0.5em;
+    display: flex;
+   justify-content: space-around;
 }
 
 .wrapper {
