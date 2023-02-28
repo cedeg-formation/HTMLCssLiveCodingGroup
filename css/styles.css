@@ -60,7 +60,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 3em;
+    font-size: 1em;
     font-family: "ClimateCrisis", Arial, serif;
     font-weight: bold;
 }
@@ -116,6 +116,25 @@ p {
     padding-top: 1em;
 }
 
+/* FOOTER */
+
+.footer {
+    padding: 2em 0;
+    background-image: url('/HtmlCSSLivecodinGgroup/media/rickmortybanner.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;color: transparent;
+    background-position: bottom;
+
+}
+
+.footer__nav__list {
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* ELEMENTS */
 
 .diagonal-box {
@@ -124,16 +143,8 @@ p {
     background-size: cover;
     transform: skewY(-4deg);
     margin-top: 2em;
-
-.footer__nav {
-
 }
-.footer__nav__list {
-    width: 100%;
-    font-size: 0.5em;
-    display: flex;
-   justify-content: space-around;
-}
+
 
 .wrapper {
     padding: 0 1em;
@@ -142,5 +153,7 @@ p {
 .content {
     height: 10px;
 }
+
+/* RESPONSIVE */
 
 
